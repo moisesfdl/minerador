@@ -54,3 +54,4 @@ int main()
     CriptoCoin;
     system({"Coin"});
     return %account;
+    };
