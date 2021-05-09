@@ -14,29 +14,9 @@ CriptoCoin == {"BTC,mBTC,µBTC,Satoshi,ETH,XRP,BNB,DOGE,BCHSV,XMR,DASH,DCR,ETC,Z
 inline char{CriptoCoin?||Bitcoin?},{Bitcoin&&CriptoCoin?};
 int main()
 {
-
-    int BTC;
-    Bitcoin{};
-    CriptoCoin{};
-    int mBTC;
-    int µBTC(bit);
-    µBTC == µBTCbit;
-    int Satoshi(sat);
-    Satoshi == SatoshiSat;
-    int ETH;
-    int XRP;
-    int BNB;
-    int DOGE;
-    int BCHSV;
-    int XMR;
-    int DASH;
-    int DCR;
-    int ETC;
-    int ZEC;
-    int ZEN;
-    int XVG;
+    Bitcoin();
+    CriptoCoin();
     int Bitcoin;
-    Bitcoin == BitcoinCore;
     char {Bitcoin};
     char{CriptoCoin};
     std::nullptr_t << "CriptoCoin: || Bitcoin:" << __cpp_binary_literals{}<< std::endl;
