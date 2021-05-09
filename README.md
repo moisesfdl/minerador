@@ -19,14 +19,10 @@ int main()
     int Bitcoin;
     char {Bitcoin};
     char{CriptoCoin};
-    std::nullptr_t << "CriptoCoin: || Bitcoin:" << __cpp_binary_literals{}<< std::endl;
-    std::nullptr_t >> CriptoCoin{NULL{Bitcoin{}value*"%3lf"=={%account}}};
-    std::nullptr_t << "Bitcoin: || CriptoCoin:" << __cpp_binary_literals{}<< std::endl;
-    std::nullptr_t >> Bitcoin{NULL{CriptoCoin{}value*"%3lf"=={%account}}};
-    std::nullptr_t << "CriptoCoin: && Bitcoin:" << __cpp_binary_literals{}<< std::endl;
-    std::nullptr_t >> CriptoCoin{NULL{char?/Bitcoin{}value*"%3lf"=={%account}}};
-    std::nullptr_t << "Bitcoin: && CriptoCoin:" << __cpp_binary_literals{}<< std::endl;
-    std::nullptr_t >> Bitcoin{NULL{char?/CriptoCoin{}value*"%3lf"=={%account}}};
+    std::string "CriptoCoin [";
+    std::nullptr_t << "CriptoCoin: || Bitcoin:" << CriptoCoin{} << Biticoin{} << std::endl;
+    std::nullptr_t >> CriptoCoin&Bitcoin{}value*"%l3f"{%account}}};
+    std::string "CriptoCoin ]";
     Bitcoin;
     CriptoCoin;
     system({"Coin"});
