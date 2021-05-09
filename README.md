@@ -10,7 +10,7 @@
 #define Bitcoin;
 #define CriptoCoin;
 
-CriptoCoin == {"BTC,mBTC,µBTC,Satoshi,ETH,XRP,BNB,DOGE,BCHSV,XMR,DASH,DCR,ETC,ZEC,ZEN,XVG"};
+CriptoCoin == {"BTC","mBTC","µBTC","Satoshi","ETH","XRP","BNB","DOGE","BCHSV","XMR","DASH","DCR","ETC","ZEC","ZEN","XVG"};
 inline char{CriptoCoin?||Bitcoin?},{Bitcoin&&CriptoCoin?};
 int main()
 {
