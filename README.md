@@ -30,5 +30,5 @@ int main()
     Bitcoin;
     CriptoCoin;
     system({"Coin"});
-    return %account;
+    return 0;
     };
