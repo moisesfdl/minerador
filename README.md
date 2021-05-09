@@ -14,8 +14,8 @@ CriptoCoin == {"BTC,mBTC,µBTC,Satoshi,ETH,XRP,BNB,DOGE,BCHSV,XMR,DASH,DCR,ETC,Z
 inline char{CriptoCoin?||Bitcoin?},{Bitcoin&&CriptoCoin?};
 int main()
 {
-    Bitcoin();
-    CriptoCoin();
+    Bitcoin{};
+    CriptoCoin{};
     int Bitcoin;
     char {Bitcoin};
     char{CriptoCoin};
