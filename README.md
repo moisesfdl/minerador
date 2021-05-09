@@ -1,6 +1,4 @@
-# minerador-COIN
-COIN
-
+# minerador
 
 //©moises ferreira de lima;
 //moisesfdl_pbt@hotmail.com.br;
@@ -13,7 +11,6 @@ COIN
 #define CriptoCoin;
 
 CriptoCoin == {"BTC,mBTC,µBTC,Satoshi,ETH,XRP,BNB,DOGE,BCHSV,XMR,DASH,DCR,ETC,ZEC,ZEN,XVG"};
-Bitcoin == {"BTC,mBTC,µBTC,Satoshi,ETH,XRP,BNB,DOGE,BCHSV,XMR,DASH,DCR,ETC,ZEC,ZEN,XVG"};
 inline char{CriptoCoin?||Bitcoin?},{Bitcoin&&CriptoCoin?};
 int main()
 {
